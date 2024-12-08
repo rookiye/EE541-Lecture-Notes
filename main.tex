@@ -1,0 +1,189 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{xcolor}
+
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+
+% 设置标题样式
+\title{\textbf{\Huge Lecture Note of EE: 541 \\ A Computational Introduction to Deep Learning}}
+
+\author{\vspace{1cm} \Large Dr. Brandon Franzke \\[1cm] \normalsize \textit{Scribe: Yi FAN}}
+\date{}
+
+% 自定义目录样式
+\renewcommand{\cftsecfont}{\normalfont\color{blue}} % 二级标题字体蓝色
+\renewcommand{\cftsubsecfont}{\normalfont} % 三级标题默认字体
+\renewcommand{\cftsecpagefont}{\normalfont} % 页码默认字体
+\setlength{\cftbeforesecskip}{0.5em} % 标题间距
+
+\begin{document}
+
+% 封面页
+\begin{titlepage}
+    \centering
+    \vspace*{2cm} % 顶部空白
+    \maketitle % 渲染标题
+    \vfill % 自动填充剩余空间
+\end{titlepage}
+
+% 目录页
+\tableofcontents
+\newpage
+
+% Main I
+\clearpage
+\begin{titlepage}
+    \centering
+    \vfill % 垂直方向居中
+    {\Huge \textbf{Part I}}\\[1.5cm] % 第一行大标题
+    {\LARGE \textbf{Basic theory}} % 第二行稍小的标题
+    \vfill % 垂直方向居中
+\end{titlepage}
+\addcontentsline{toc}{section}{I \quad Basic theory}
+\section{Introduction to EE 541: A Computational Introduction to Deep Learning}
+Brief Intro
+\subsection{What is Machine Learning}
+what is 
+\subsection{What is Deep Learning}
+what is
+\subsection{The history and development of Machine Learning}
+History
+\subsection{Your Python Environment}
+Python
+\subsection{Reference and Recommended Reading}
+[1]xxx
+
+% not a paranomic guidance to Python
+% just clarify what Python skills will be used in this course
+
+\clearpage
+\section{Python Fundamentals}
+Python
+\subsection{Data types and control structures}
+Data types and control structures
+\subsection{Data Structures}
+Data Structures
+\subsection{Objects and classes}
+Objects and classes
+\subsection{Python Libraries: NumPy and Matplotlib}
+Python Libraries: NumPy and Matplotlib
+\subsection{Reference and Recommended Reading}
+Reference and Recommended Reading
+
+\clearpage
+\section{Minimum Mean Square Error(MMSE) Estimation}
+\subsection{Random vectors and Covariance Matrix}
+Random vectors and Covariance Matrix
+\subsection{What is Estimation and what is LMMSE}
+What is Estimation and what is LMMSE
+\subsection{MMSE Estimation for Jointly Gaussian case}
+MMSE Estimation for Jointly Gaussian case
+\subsection{Least Mean Square(LMS) Algorithm}
+Least Mean Square(LMS) Algorithm
+\subsection{Reference and Recommended Reading}
+Reference and Recommended Reading
+
+\clearpage
+\section{Regression and Classification}
+Regression and Classification
+\subsection{Linear Regression problem}
+Linear Regression problem
+\subsection{Linear Least Squares Estimation Regression}
+Linear Least Squares Estimation Regression
+\subsection{Linear Classification problem}
+Linear Classification problem
+\subsection{Comparison between Regression and Classification}
+Comparison between Regression and Classification
+\subsection{Reference and Recommended Reading}
+
+\clearpage
+\section{Decision and Logistic Regression}
+Decision and Logistic Regression
+\subsection{Bayesian Decision Theory}
+Bayesian Decision Theory
+\subsection{Logistic Regression}
+Logistic Regression
+\subsection{Regularization}
+Regularization
+\subsection{Reference and Recommended Reading}
+
+\clearpage
+\section{Multilayer Perceptron networks (MLPS)}
+Multilayer Perceptron networks (MLPS)
+\subsection{MLP forward propagation}
+MLP forward propagation
+\subsection{Backward propagation}
+Backward propagation
+\subsection{LMS versus BP}
+LMS versus BP
+\subsection{Reference and Recommended Reading}
+
+\clearpage
+\section{Training Deep Neutral Networks}
+Training Deep Neutral Networks
+\subsection{Universal Approximation Theorem: Why Go Deep}
+Universal Approximation Theorem: Why Go Deep
+\subsection{Introduction to PyTorch}
+Introduction to PyTorch
+\subsection{Dealing with Data}
+Dealing with Data
+\subsection{Vanishing Gradients}
+Vanishing Gradients
+\subsection{Parameter Initialization}
+Parameter Initialization
+\subsection{Cost Function and Regularization}
+Cost Function and Regularization
+\subsection{Deep Learning Optimizers}
+Deep Learning Optimizers
+\subsection{Reference and Recommended Reading}
+
+\clearpage
+\section{Convolutional Neutral Networks(CNNs)}
+Convolutional Neutral Networks(CNNs)
+\subsection{Convolution operations}
+Convolution operations
+\subsection{Conv2D Layer in PyTorch}
+Conv2D Layer in PyTorch
+\subsection{Pooling and Stride}
+Pooling and Stride
+\subsection{Visualization}
+Visualization
+\subsection{Block Structures}
+Block Structures
+\subsection{Open source deep learning framework: Keras}
+\href{https://keras.io/api/applications/}{Keras Applications API}
+\subsection{Reference and Recommended Reading}
+
+\clearpage
+\section{Working with Data}
+Working with Data
+\subsection{Designing Datasets}
+Designing Datasets
+\subsection{Deep Learning workflow}
+Deep Learning workflow
+\subsection{Normalization Methods}
+Normalization Methods
+\subsection{Dimensionality Reduction: PCA and LDA}
+Dimensionality Reduction: PCA and LDA
+\subsection{Finding data}
+Finding data
+\subsection{Reference and Recommended Reading}
+%  II
+
+\clearpage
+\begin{titlepage}
+    \centering
+    \vfill 
+    {\Huge \textbf{Part II}}\\[1.5cm] ]
+    {\LARGE \textbf{Application of Deep Learning}} ]
+    \vfill 
+\end{titlepage}
+\addcontentsline{toc}{section}{II \quad Application of Deep Learning}
+
+\section{Adapt pre-trained models to new datasets }
+About Homework 7 
+
+\end{document}
